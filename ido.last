@@ -1,0 +1,57 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/uditmukherjee/Documents/work/backend/learnosity/app/" . "models/")
+ ("/Users/uditmukherjee/Documents/work/backend/learnosity/" . "app/")
+ ("/Users/uditmukherjee/Documents/work/backend/" . "learnosity/")
+ ("/Users/uditmukherjee/Documents/work/" . "backend/")
+ ("/Users/uditmukherjee/Documents/" . "work/")
+ ("/Users/uditmukherjee/" . "Documents/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/uditmukherjee/Documents/work/backend/learnosity/"
+ "/Users/uditmukherjee/.emacs.d/"
+ "/Users/uditmukherjee/Documents/work/backend/learnosity/app/models/"
+ "/Users/uditmukherjee/Documents/work/backend/learnosity/__pycache__/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "manage.py"
+ "init.el"
+ "upload_batch.py"
+ "question_upload_data.py"
+ "__init__.py"
+ "manage.cpython-35.pyc"
+ "Dockerfile"
+ "README.md"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/uditmukherjee/Documents/work/backend/learnosity/" (23949 59441 299416 970000) ".idea/" ".git/" "venv/" "manage.py" ".gitignore" "logs/" "__pycache__/" "tests/" "setup/" "sqs.log" "Dockerfile" "requirements.txt" "app/" ".DS_Store" "dump/" ".arcconfig" "migrations/" "../" "./")
+
+ ("/Users/uditmukherjee/.emacs.d/" (23949 58737 98652 73000) ".git/" "venv/" "elpa/" "recentf" "README.md" "init.el" "auto-save-list/" "init.el~" "ido.last" "snippets/" "ac-comphist.dat" "../" "./")
+
+ ("/Users/uditmukherjee/Documents/work/backend/learnosity/app/models/" (23949 56372 162177 715000) "base.py" "uploaded_question.py" "__pycache__/" "__init__.py" "question_upload_data.py" "upload_batch.py" "../" "./")
+
+ ("/Users/uditmukherjee/Documents/work/backend/learnosity/app/" (23925 60424 506379 752000) "templates/" "api/" "exceptions/" "__pycache__/" "models/" "utils/" "__init__.py" "admin/" "async/" "managers/" "asyncapi/" "settings/" "../" "./")
+
+ ("/Users/" (23906 53419 916301 88000) "uditmukherjee/" "Shared/" ".localized" "../" "./")
+
+ ("/Users/uditmukherjee/Documents/work/backend/learnosity/__pycache__/" (23791 44849 119043 840000) "manage.cpython-35.pyc" "../" "./")
+
+ ("/Users/uditmukherjee/Documents/work/backend/" (23833 44920 887959 601000) "apigateway/" "cueutil/" "csgateway/" "servicecaller/" "practicesession/" "flaskbase/" "learnosity/" "swarmfiles/" "question/" "feedback/" "helpcenter/" "webapigateway/" "segment/" "cuecoin/" "downloadcenter/" "asset/" ".DS_Store" "inapp_notification/" "gameunits/" "lambdafunctions/" "cuecoreweb/" "../" "./")
+
+ ("/Users/uditmukherjee/Documents/work/" (23816 54221 302800 135000) "backenddownloadcenter/" "game_build/" "games/" "backendapigateway/" "assets/" "keys/" "scripts/" "ios/" "backendhelpcenter/" "backend/" "experiments/" "cuecoin/" "unity_assets/" "test/" ".DS_Store" "backendasset/" "cuestudent/" "../" "./")
+
+ ("/Users/uditmukherjee/Documents/" (23948 37891 685446 359000) "Image-Line/" "side_projects/" "id docz/" "Wolfram Mathematica/" "work/" "Arduino/" "ios/" "OpenSCAD/" "3d stuff/" ".Cloud/" ".localized" "playground/" ".DS_Store" "sketch resources/" "../" "./")
+
+ ("/Users/uditmukherjee/" (23949 55298 876199 516000) ".zlogout" ".zcompdump-udit’s MacBook Pro-5.6.2" ".zlogin" ".aliases/" ".krita-29517-document_0-autosave.kra" ".viminfo" ".bash_history" ".gitconfig" ".aws/" ".cache/" ".python_history" "Downloads/" ".rediscli_history" ".oh-my-zsh/" ".Xauthority" ".gem/" ".bash_profile" "arc/" ".mono/" ".zshrc.backup2" ".pyenv/" "Documents/" ".npm/" ".zprezto/" ".jupyter/" ".Trash/" ".gradle/" "Applications/" ".dotnet/" "Movies/" ".ssh/" ".zcompdump-udit’s MacBook Pro-5.3" ".idlerc/" ".zshenv" "Public/" "swarmfiles/" "test_op" ".DDPreview/" ".bash_sessions/" ".cups/" ".wacom/" ".android/" ".node_repl_history" ".emacs.d/" ".IdentityService/" ".emulator_console_auth_token" "props_polargraph.properties.txt" ".oracle_jre_usage/" ".lesshst" ".matplotlib/" "Library/" "Desktop/" ".tizen/" ".ipython/" "goa/" ".zsh_history" ".gnome2/" ".nuget/" ".bash_imb/" "setup_polargraph.properties.txt" ".zprofile" ".cocos/" ".zshrc.backup" "Pictures/" ".psql_history" ".local/" ".templateengine/" ".swp" ".ServiceHub/" ".arcrc" ".zshrc.backup1" ".bash_profile~" ".zshrc" ".jssc/" ".subversion/" ".CFUserTextEncoding" "dump.rdb" ".CocosCreator/" "cue/" ".zshrc~" ".DS_Store" ".virtualenvs/" "poly_test_1.properties.txt" "#.zshrc#" ".docker/" "Music/" ".config/" ".zpreztorc" "GearWatchDesigner/" "polygraph_test/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
