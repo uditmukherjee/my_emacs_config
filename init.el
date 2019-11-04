@@ -1,4 +1,3 @@
-
 ;; Set basic details
 (setq user-full-name "Udit Mukherjee")
 (setq user-mail-address "uditmukherjee457@gmail.com")
@@ -53,7 +52,8 @@
                         web-mode
                         writegood-mode
                         yaml-mode
-                        py-autopep8)
+                        py-autopep8
+                        ace-jump-mode)
   "Default packages")
 
 (defun udit/packages-installed-p ()
@@ -72,6 +72,7 @@
 (setq inhibit-splash-screen t
       initial-scratch-message nil
       initial-major-mode 'org-mode
+      org-log-done 'time
       )
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
@@ -109,6 +110,18 @@
 (add-to-list 'initial-frame-alist '(fullscreen . maximized))
 (add-to-list 'default-frame-alist '(fullscreen . fullheight))
 
+(define-key global-map (kbd "M-`") 'other-frame) ;; switch between multiple monitors when multiple frames are opened
+(define-key global-map (kbd "C-j") 'newline-and-indent)
+(define-key global-map (kbd "RET") 'newline-and-indent)
+
+(electric-pair-mode t)
+
+(define-key global-map (kbd "C-a") 'back-to-indentation)
+
+(global-set-key (kbd "M-n") (lambda () (interactive) (next-line) (call-interactively 'move-end-of-line)))
+(global-set-key (kbd "M-p") (lambda () (interactive) (previous-line) (call-interactively 'move-end-of-line)))
+
+(global-auto-revert-mode t)
 
 ;; Theme
 (require 'doom-themes)
@@ -181,3 +194,5 @@
   '(ace-jump-mode-enable-mark-sync))
 (define-key global-map (kbd "C-x SPC") 'ace-jump-mode-pop-mark)
 (define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
+
+

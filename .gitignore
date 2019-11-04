@@ -1,5 +1,7 @@
 venv/
 ido.last
 ac-comphist.dat
+*.pyc
+
 
 
