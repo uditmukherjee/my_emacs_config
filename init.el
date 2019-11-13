@@ -195,4 +195,20 @@
 (define-key global-map (kbd "C-x SPC") 'ace-jump-mode-pop-mark)
 (define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
 
-
+;; Select word the cursor is currently in
+(defun mark-whole-word (&optional arg allow-extend)
+  (interactive "P\np")
+  (let ((num  (prefix-numeric-value arg)))
+    (unless (eq last-command this-command)
+      (if (natnump num)
+          (skip-syntax-forward "\\s-")
+        (skip-syntax-backward "\\s-")))
+    (unless (or (eq last-command this-command)
+                (if (natnump num)
+                    (looking-at "\\b")
+                  (looking-back "\\b")))
+      (if (natnump num)
+          (left-word)
+        (right-word)))
+    (mark-word arg allow-extend)))
+(global-set-key [remap mark-word] 'mark-whole-word)
